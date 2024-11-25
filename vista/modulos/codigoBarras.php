@@ -52,7 +52,7 @@ if (isset($_GET["producto"])){
             height: 100px;
             text-align: center;
             align-items: center;
-            border: 1px solid #ccc;
+            border: 1px solid #000;
             padding: 15px;
             margin: auto;
             border-radius: 10px;
@@ -68,8 +68,14 @@ if (isset($_GET["producto"])){
 </head>
 <body>
     <div class="panel">
+
+        <div>
+            <!-- Imagen del producto -->
+            <img src="" alt="imagenProducto">
+        </div> 
+
         <div class="mc-qr">
-            <img src="http://<?php echo $_SERVER['HTTP_HOST'];?>/adsoqr/vista/modulos/barcode.png" class="" alt="codigoBarras">
+            <img src="http://<?php echo $_SERVER['HTTP_HOST'];?>/adsoqr1/vista/modulos/barcode.png" class="" alt="codigoBarras">
         </div>
 
         <div class="mc-panel">
